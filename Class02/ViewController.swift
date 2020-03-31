@@ -10,11 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var llbMag: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func btnClickLoad(_ sender: Any) {
+        self.llbMag.text = "世界好"
+        
+    }
+    
+    @IBOutlet weak var lllbMag: UILabel!
+    
 
 }
 
